@@ -1,0 +1,19 @@
+digraph estructuras { 
+1[shape=record, label="<f0> Legendario| <f1> Nombre: Chimichanga
+ ID: 1
+ Precio: 4
+ Src: /src.com| <f2> Nombre: Poderosos
+ ID: 1
+ Precio: 10
+ Src: /src.com"]
+ 2[shape=record, label="<f0> Epico| <f1> Nombre: Los barbaros
+ ID: 772
+ Precio: 5
+ Src: /src.com"]
+ 3[shape=record, label="<f0> Novato| <f1> Nombre: Noobs
+ ID: 152
+ Precio: 1
+ Src: /src.com"]
+ 1:f0 ->2:f0;
+2:f0 ->3:f0;
+}

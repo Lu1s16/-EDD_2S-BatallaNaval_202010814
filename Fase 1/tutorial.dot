@@ -1,0 +1,17 @@
+digraph G { 
+1[shape=box, label="Posicion x: 2
+Posicion y: 3", style=filled]
+2[shape=box, label="Posicion x: 3
+Posicion y: 4", style=filled]
+3[shape=box, label="Posicion x: 2
+Posicion y: 1", style=filled]
+4[shape=box, label="Alto: 6
+Ancho: 5", style=filled]
+{rank=same 
+1->2[arrowsize=0.5]; 
+2->3[arrowsize=0.5]; 
+3->4[arrowsize=0.5]; 
+} 
+ 
+
+ }

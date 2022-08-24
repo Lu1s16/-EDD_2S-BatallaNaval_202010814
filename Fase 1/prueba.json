@@ -1,0 +1,24 @@
+{
+"usuarios": [
+{ "nick": "Luis", "password": "123", "monedas": "5", "edad": "19" },
+{ "nick": "Ale", "password": "abc", "monedas": "6", "edad": "26" },
+{ "nick": "Vane", "password": "123", "monedas": "12", "edad": "19" }
+],
+"articulos": [
+{ "id": "001", "categoria": "Legendario", "precio": "4", "nombre": "Chimichanga", "src": "/src.com" },
+{ "id": "001", "categoria": "Legendario", "precio": "10", "nombre": "Poderosos", "src": "/src.com" },
+{ "id": "0772", "categoria": "Epico", "precio": "5", "nombre": "Los barbaros", "src": "/src.com" },
+{ "id": "0152", "categoria": "Novato", "precio": "1", "nombre": "Noobs", "src": "/src.com" }
+],
+"tutorial": {
+"ancho":"5",
+"alto":"6",
+"movimientos":[
+{ "x": "2", "y": "1" },
+{ "x": "3", "y": "4" },
+{ "x": "2", "y": "3" }
+]
+
+}
+
+}

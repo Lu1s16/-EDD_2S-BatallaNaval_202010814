@@ -1,0 +1,1 @@
+digraph G { node [color=white]; a0 -> a1 -> a2 -> a3; }
