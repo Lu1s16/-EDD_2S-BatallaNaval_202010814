@@ -35,13 +35,16 @@ Lista_articulos_aux lista_aux;
 //opciones menu principal
 void Carga_masiva(){
 
+
     // C:\\Users\\Julio Garcia\\Desktop\\prueba.json
     std::cout <<"Carga masiva" << std::endl;
 
     std:: string ruta;
     std:: cin >> ruta;
     
-    // Using fstream to get the file pointer in file.
+    
+    ifstream ifs("/codigo fuente");
+
     ifstream file(ruta);
     Json::Value actualJson;
     Json::Reader reader;
@@ -451,6 +454,8 @@ int Menu_princiapl(){
 
 
 int main(int argc, char const *argv[]){
+
+
 
     Menu_princiapl();
 
