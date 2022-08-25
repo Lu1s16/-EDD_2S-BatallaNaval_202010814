@@ -8,14 +8,14 @@ class nodo_articulos{
 
     public:
         nodo_articulos*next_articulo;
-        int id;
+        string id;
         int precio;
         string nombre;
         string src;
 
         nodo_articulos(){
             next_articulo = NULL;
-            id = 0;
+            id = "";
             precio = 0;
             nombre = "";
             src = "";

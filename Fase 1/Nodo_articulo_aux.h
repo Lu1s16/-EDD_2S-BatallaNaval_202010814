@@ -7,7 +7,7 @@ class Nodo_articulos_aux{
 
     public:
         Nodo_articulos_aux*siguiente;
-        int id;
+        string id;
         int precio;
         string nombre;
         string src;
@@ -15,7 +15,7 @@ class Nodo_articulos_aux{
 
         Nodo_articulos_aux(){
             siguiente = NULL;
-            id = 0;
+            id = "";
             precio = 0;
             nombre = "";
             src = "";

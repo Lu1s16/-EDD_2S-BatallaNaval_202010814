@@ -18,7 +18,7 @@ class Lista_categorias {
         //Esta funcion insertara una categoria
         //y el articulo si aun no existe la categoria
         //en la lista
-        void Insertar_categoria(string categoria, int id, int precio, string nombre, string src){
+        void Insertar_categoria(string categoria, string id, int precio, string nombre, string src){
             nodo_categorias*nueva_categoria = new nodo_categorias();
             nueva_categoria->categoria = categoria;
             nueva_categoria->lista_de_articulos->Insertar_articulo(id, precio, nombre, src);
@@ -44,7 +44,7 @@ class Lista_categorias {
 
         //Esta funcion insertara el articulo
         //en una categoria ya existente
-        void insertar_solo_articulo(string categoria, int id, int precio, string nombre, string src){
+        void insertar_solo_articulo(string categoria, string id, int precio, string nombre, string src){
             //actual nos servira para encontrar la categoria ya existente
             nodo_categorias*actual = primero;
             while(actual != NULL){

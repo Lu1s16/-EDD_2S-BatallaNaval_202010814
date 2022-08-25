@@ -16,7 +16,7 @@ class Lista_articulos_aux {
             size = 0;
         }
 
-        void Insertar(int id, int precio, string nombre, string src, string categoria){
+        void Insertar(string id, int precio, string nombre, string src, string categoria){
 
             Nodo_articulos_aux*nuevo_articulo = new Nodo_articulos_aux();
             nuevo_articulo->categoria = categoria;
@@ -64,7 +64,8 @@ class Lista_articulos_aux {
             int i, k;
             Nodo_articulos_aux*actual;
             string aux_nombre, aux_categoria, aux_src;
-            int aux_id, aux_precio;
+            int aux_precio;
+            string aux_id;
 
             for(k = 1; k<size; ++k){
                 actual = primero;
@@ -104,7 +105,8 @@ class Lista_articulos_aux {
             int i, k;
             Nodo_articulos_aux*actual;
             string aux_nombre, aux_categoria, aux_src;
-            int aux_id, aux_precio;
+            int aux_precio;
+            string aux_id;
 
             for(k = 1; k<size; ++k){
                 actual = primero;

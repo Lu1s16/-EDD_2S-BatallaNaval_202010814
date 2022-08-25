@@ -46,10 +46,10 @@ class Lista_articulos {
 
                 if(size_articulos != no_dato) {
                     //creo los label
-                    estructura+="<f"+ to_string(no_dato) + "> " + "Nombre: " +actual->nombre + "\n ID: " + to_string(actual->id) + "\n Precio: " + to_string(actual->precio) + "\n Src: " + actual->src + "| ";
+                    estructura+="<f"+ to_string(no_dato) + "> " + "Nombre: " +actual->nombre + "\n ID: " + actual->id + "\n Precio: " + to_string(actual->precio) + "\n Src: " + actual->src + "| ";
 
                 } else {
-                    estructura+="<f"+ to_string(no_dato) + "> " + "Nombre: " +actual->nombre + "\n ID: " + to_string(actual->id) + "\n Precio: " + to_string(actual->precio) + "\n Src: " + actual->src + "\"]\n ";
+                    estructura+="<f"+ to_string(no_dato) + "> " + "Nombre: " +actual->nombre + "\n ID: " + actual->id + "\n Precio: " + to_string(actual->precio) + "\n Src: " + actual->src + "\"]\n ";
                 }
 
                 
@@ -65,7 +65,7 @@ class Lista_articulos {
         }
 
         //funcion para insertar los articulos de la carga masiva
-        void Insertar_articulo(int id, int precio, string nombre, string src){
+        void Insertar_articulo(string id, int precio, string nombre, string src){
 
             nodo_articulos*nuevo_articulo = new nodo_articulos();
             nuevo_articulo->id = id;

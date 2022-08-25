@@ -101,9 +101,9 @@ void Carga_masiva(){
         std::string nombre_art = elem_articulo["nombre"].asString();
         std::string src = elem_articulo["src"].asString();
 
-        int int_id, int_precio;
+        int int_precio;
 
-        int_id = stoi(id);
+        string int_id = id;
         int_precio = stoi(precio);
 
         //busco si ya existe la categoria en la lista
